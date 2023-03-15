@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my4_977_Squares_of_a_Sorted_Array import Solution
+from ..algorithm_src.my4_977_Squares_of_a_Sorted_Array import Solution
 
 
 @pytest.fixture()

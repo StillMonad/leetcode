@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my6_189_Rotate_Array import Solution
+from ..algorithm_src.my6_189_Rotate_Array import Solution
 
 
 @pytest.fixture()

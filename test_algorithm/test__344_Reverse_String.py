@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my9_344_Reverse_String import Solution
+from ..algorithm_src.my9_344_Reverse_String import Solution
 
 
 @pytest.fixture()

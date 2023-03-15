@@ -1,5 +1,5 @@
 import pytest
-from ..algorithm.my2_278_First_Bad_Version import Solution, tver
+from ..algorithm_src.my2_278_First_Bad_Version import Solution, tver
 from ..tools.limit_exec_time import limit_exec_time
 
 

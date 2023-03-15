@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my10_557_Reverse_Words_in_a_String_III import Solution
+from ..algorithm_src.my10_557_Reverse_Words_in_a_String_III import Solution
 
 
 @pytest.fixture()

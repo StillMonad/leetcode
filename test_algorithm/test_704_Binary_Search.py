@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my1_704_Binary_Search import Solution
+from ..algorithm_src.my1_704_Binary_Search import Solution
 
 @pytest.fixture()
 def prep():

@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my3_35_Search_Insert_Position import Solution
+from ..algorithm_src.my3_35_Search_Insert_Position import Solution
 
 
 @pytest.fixture()

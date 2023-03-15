@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my8_167_Two_Sum_II import Solution
+from ..algorithm_src.my8_167_Two_Sum_II import Solution
 
 
 @pytest.fixture()

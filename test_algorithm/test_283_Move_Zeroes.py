@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my7_283_Move_Zeroes import Solution
+from ..algorithm_src.my7_283_Move_Zeroes import Solution
 
 
 @pytest.fixture()

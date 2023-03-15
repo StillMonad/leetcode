@@ -1,6 +1,6 @@
 import pytest
 from ..tools.limit_exec_time import limit_exec_time
-from ..algorithm.my5_978_Longest_Turbulent_Subarray import Solution
+from ..algorithm_src.my5_978_Longest_Turbulent_Subarray import Solution
 
 
 @pytest.fixture()
