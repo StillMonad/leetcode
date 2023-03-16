@@ -2,6 +2,9 @@ import time
 import functools
 
 def time_measure(f):
+    """
+    decorator that prints elapsed time
+    """
     @functools.wraps(f)
     def inner(*args, **kwargs):
         st = time.time()
