@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my13_3_Longest_Substring_Without_Repeating_Characters import Solution
 
 
@@ -16,6 +16,6 @@ cases = [
 
 
 @pytest.mark.parametrize('case', cases)
-@limit_exec_time(0.3)
+@time_limit(0.3)
 def test(prep, case):
     assert prep.lengthOfLongestSubstring(case[0]) == case[1]

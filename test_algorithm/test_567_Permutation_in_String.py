@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my14_567_Permutation_in_String import Solution
 from ..tools.time_measure import time_measure
 

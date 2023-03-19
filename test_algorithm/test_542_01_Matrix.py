@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..tools.time_measure import time_measure
 from ..algorithm_src.my19_542_01_Matrix import Solution
 

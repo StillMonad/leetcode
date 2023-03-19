@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my4_977_Squares_of_a_Sorted_Array import Solution
 
 
@@ -16,6 +16,6 @@ cases = [
 
 
 @pytest.mark.parametrize('case', cases)
-@limit_exec_time(2)
+@time_limit(2)
 def test(prep, case):
     assert prep.sortedSquares(case[0]) == case[1], f"Input: {case[0]}"

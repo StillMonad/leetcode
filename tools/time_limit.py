@@ -4,7 +4,7 @@ import functools
 import sys
 
 
-def limit_exec_time(sec):
+def time_limit(sec):
     """
     decorator that limits function execution time to given seconds when not in debug
     """

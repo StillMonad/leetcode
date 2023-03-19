@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my15_733_Flood_Fill import Solution
 
 
@@ -30,6 +30,6 @@ cases = [
 
 
 @pytest.mark.parametrize('case', cases)
-@limit_exec_time(1)
+@time_limit(1)
 def test(prep, case):
     assert prep.floodFill(*case[0]) == case[1]

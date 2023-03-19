@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my5_978_Longest_Turbulent_Subarray import Solution
 
 
@@ -21,6 +21,6 @@ cases = [
 
 
 @pytest.mark.parametrize('case', cases)
-@limit_exec_time(2)
+@time_limit(2)
 def test(prep, case):
     assert prep.maxTurbulenceSize(case[0]) == case[1], f"Input: {case[0]}"

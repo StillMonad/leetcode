@@ -1,5 +1,5 @@
 import pytest
-from ..tools.limit_exec_time import limit_exec_time
+from ..tools.time_limit import time_limit
 from ..algorithm_src.my1_704_Binary_Search import Solution
 
 @pytest.fixture()
@@ -14,7 +14,7 @@ cases = [
 
 
 @pytest.mark.parametrize('case', cases)
-@limit_exec_time(2)
+@time_limit(2)
 def test(prep, case):
     assert prep.search(*case[0]) == case[1]
 
